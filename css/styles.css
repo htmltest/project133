@@ -409,7 +409,7 @@ nav ul li.active a {color:#3c7dd7}
     .header-menu-close {right:80px; top:27px}
 }
 
-.config-menu {position:fixed; visibility:hidden; left:0; top:104px; right:0; bottom:0; overflow:auto; z-index:-1; background:url(../images/config-menu-bg.jpg) no-repeat left bottom; background-size:100% auto; transform:translateY(50px); opacity:0; transition:all 0.25s}
+.config-menu {position:fixed; visibility:hidden; left:0; top:104px; right:0; bottom:0; overflow:auto; z-index:-1; background:rgba(0, 0, 0, 0.24); transform:translateY(50px); opacity:0; transition:all 0.25s}
 .config-menu-open .config-menu {z-index:9; visibility:visible; opacity:1; transform:none}
 .config-menu-content {background:#fff; box-shadow:0 2px 8px 0 rgba(96, 99, 104, 0.28); padding:1px 0 0 0}
 .config-menu-content form {margin:0; padding:0}
@@ -624,7 +624,7 @@ nav ul li.active a {color:#3c7dd7}
     .content {padding:32px 0 0 0}
 }
 
-.animate {transform:translateY(100px); opacity:0; transition:all 0.25s}
+.animate {transform:translateY(50px); opacity:0; transition:all 0.5s}
 .animate-start {transform:translateY(0); opacity:1}
 
 .back-link {font-size:12px; line-height:18px; letter-spacing:0.88px; font-weight:600; text-transform:uppercase}
@@ -1606,7 +1606,7 @@ nav ul li.active a {color:#3c7dd7}
 .detail-video-list-item {display:inline-block; vertical-align:top; width:33.33%; padding:0 16px}
 .detail-video-list-item-inner {display:block; text-decoration:none; color:#fff; white-space:normal; border:1px solid #fff; position:relative}
 .detail-video-list-item-inner:hover {color:#fff}
-.detail-video-list-item-preview {position:absolute; left:0; top:0; right:0; bottom:0; background:no-repeat center; background-size:cover; opacity:0; transition:all 0.15s}
+.detail-video-list-item-preview {position:absolute; left:0; top:0; right:0; bottom:0; background:no-repeat center; background-size:cover; opacity:0; transition:all 0.2s ease-in-out}
 .detail-video-list-item-preview::after {content:""; display:block; position:absolute; left:0; top:0; right:0; bottom:0; background:linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.356884) 100%)}
 .detail-video-list-item-inner:hover .detail-video-list-item-preview {opacity:1}
 .detail-video-list-item-content {position:relative; height:222px; padding:46px 0 0 0; text-align:center}
@@ -1787,7 +1787,7 @@ nav ul li.active a {color:#3c7dd7}
 .service-process-slider-next::before {transform:translateX(-15px); opacity:0}
 .service-process-slider-next:hover::before {transform:translateX(0); opacity:1}
 .service-process-slider-next:hover::after {transform:translateX(15px); opacity:0}
-.service-process-slider-timer {display:block; position:absolute; width:0; height:1px; background:#d2d9e4; left:0; top:50%; transform:translateY(-50%)}
+.service-process-slider-timer {display:block; position:absolute; width:0; height:1px; background:#d2d9e4; left:0; top:50%; margin-top:-1px}
 
 @media (max-width:1680px) {
     .service-process-content {width:488px}
@@ -1991,8 +1991,8 @@ nav ul li.active a {color:#3c7dd7}
 
 .clients-faq {background:#f6f7f8; padding:80px 0}
 .clients-faq-title {font-weight:bold; font-size:32px; line-height:40px; text-align:center; color:#151515}
-.clients-faq-list {margin:56px 0 0 0}
-.clients-faq-item {box-shadow:inset 0px -1px 0px #e2e2e2, inset 0px 1px 0px #e2e2e2; background:#fff; position:relative; overflow:hidden}
+.clients-faq-list {margin:56px 0 0 0;border-top:1px solid #e2e2e2}
+.clients-faq-item {border-bottom:1px solid #e2e2e2; background:#fff; position:relative; overflow:hidden}
 .clients-faq-item-title {position:relative;}
 .clients-faq-item-title {cursor:pointer; position:relative; padding:25px 95px 27px 40px; color:#151515; font-size:18px; line-height:30px; transition:all 0.15s}
 .clients-faq-item.open .clients-faq-item-title,
@@ -2377,6 +2377,7 @@ nav ul li.active a {color:#3c7dd7}
 .main-press-list {position:relative}
 .main-press-list-inner {margin:40px -16px 0 -16px; padding:0 0 32px 0; font-size:0; line-height:0; letter-spacing:-1px; white-space:nowrap; position:relative; overflow:hidden}
 .main-press-list-inner::before {content:""; display:block; position:absolute; left:16px; width:9999px; bottom:0; height:1px; background:#d2d9e4}
+.main-press-list-inner::after {content:""; display:block; position:absolute; right:100%; top:0; bottom:0; width:9999px; background:#fff}
 .main-press-list-inner.slick-initialized {overflow:visible}
 .main-press-list-inner .slick-list {overflow:visible !important}
 .main-press-item {display:inline-block; vertical-align:top; width:33.33%; white-space:normal; padding:0 16px; opacity:0.2; pointer-events:none; transition:all 0.15s}
@@ -2714,7 +2715,7 @@ h1+.press-detail-date {margin:-56px 0 64px 0}
 .about-gallery-info {position:absolute; left:0; top:0; right:0; height:0}
 .about-gallery-info .container::after {display:none}
 .about-gallery-info-wrap {float:right; width:488px; background:#3c7dd7}
-.about-gallery-info-inner {height:648px; position:relative; padding:112px 44px 0 44px}
+.about-gallery-info-inner {height:648px; position:relative; padding:112px 44px 0 44px; overflow:hidden}
 .about-gallery-info-inner::after {content:""; display:block; position:absolute; left:114px; right:176px; bottom:68px; height:1px; background:rgba(209, 215, 222, 0.4)}
 .about-gallery-info-slider {position:relative}
 .about-gallery-info-slide {position:absolute; left:0; top:0; width:100%; opacity:0}
@@ -2783,6 +2784,7 @@ h1+.press-detail-date {margin:-56px 0 64px 0}
 .side-menu ul li:first-cihld {margin:0}
 .side-menu ul li::before {display:none}
 .side-menu ul li::after {content:""; display:block; width:4px; height:4px; background:#335687; border-radius:50%; opacity:0.4; position:absolute; left:40px; top:50%; margin-top:-2px; transition:all 0.15s}
+.side-menu.inverse ul li::after {background:#fff}
 .side-menu:hover ul li::after {background:#fff; opacity:0.7}
 .side-menu ul li.active::after {width:8px; height:8px; left:38px; margin-top:-4px; opacity:1}
 .side-menu ul li a {color:rgba(255, 255, 255, 0.6); text-decoration:none}
@@ -2821,6 +2823,7 @@ h1+.press-detail-date {margin:-56px 0 64px 0}
 }
 
 .side-developer {opacity:0.63; transition:all 0.5s; position:fixed; right:-86px; bottom:220px; display:block; z-index:8; transform:rotate(-90deg); transform-origin:left top; text-decoration:none; padding:0; font-weight:500; font-size:14px; line-height:17 px; letter-spacing:0.4px; color:#fff}
+.side-developer:hover {opacity:1}
 .side-developer.invisible {visibility:hidden; opacity:0}
 .side-developer a {color:#fff; text-decoration:none}
 .side-developer.inverse {color:#b6bcc4; opacity:0.96}
