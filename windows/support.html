@@ -1,0 +1,35 @@
+<div class="window-inner">
+    <div class="window-title">Заявка в техподдержку</div>
+    <div class="window-form">
+        <form action="windows/support-success.html" method="post" class="ajax-form">
+            <div class="window-subtitle">Выберите повод обращения</div>
+            <div class="window-theme">
+                <label><input type="radio" name="theme" value="1" checked="checked" /><span>Запрос комплектующих</span></label>
+                <label><input type="radio" name="theme" value="2" /><span>Методология процесса</span></label>
+                <label><input type="radio" name="theme" value="3" /><span>Заказ услуги</span></label>
+                <label><input type="radio" name="theme" value="4" /><span>Ошибка программы</span></label>
+                <label><input type="radio" name="theme" value="5" /><span>Поломка прибора</span></label>
+                <label><input type="radio" name="theme" value="6" /><span>Другое</span></label>
+            </div>
+            <div class="window-subtitle">Описание</div>
+            <div class="form-input"><span>Заводской номер устройства</span><em>не обязательно</em><input type="text" name="code" value="" /></div>
+            <div class="form-input"><span>Опишите проблему кратко*</span><em>до 500 символов</em><textarea name="message" rows="5" cols="10" class="required"></textarea></div>
+            <div class="window-subtitle">Контактные данные</div>
+            <div class="form-input"><span>Имя*</span><input type="text" name="name" value="" class="required" /></div>
+            <div class="form-input"><span>Компания</span><input type="text" name="company" value="" /></div>
+            <div class="form-input"><span>Город</span><input type="text" name="city" value="" /></div>
+            <div class="form-input"><span>Телефон*</span><input type="text" name="phone" value="" class="required phoneRU" /></div>
+            <div class="form-input"><span>E-mail*</span><input type="text" name="email" value="" class="required email" /></div>
+            <div class="form-files">
+                <div class="form-file">
+                    <div class="form-file-input">Прикрепить файл<input type="file" name="files[]" /></div>
+                    <div class="form-file-name"><div class="form-file-name-text"></div><div class="form-file-name-remove"></div></div>
+                </div>
+            </div>
+            <div class="form-ctrl">
+                <div class="form-submit"><input type="submit" value="Отправить заявку" class="btn" /></div>
+                <div class="form-policy">Нажимая на кнопку, вы даете <a href="policy.html">согласие</a> на&nbsp;обработку персональных данных и принимаете политику конфиденциальности</div>
+            </div>
+        </form>
+    </div>
+</div>

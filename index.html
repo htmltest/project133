@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <title>НПП Геотек</title>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600,700&display=swap&subset=cyrillic" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="js/chosen/chosen.css" />
+        <link rel="stylesheet" href="js/slick/slick.css" />
+        <link rel="stylesheet" href="js/fancybox/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="js/mcustomscrollbar/jquery.mCustomScrollbar.css" />
+
+        <meta name="viewport" content="width=device-width" />
+    </head>
+
+    <body class="page-main">
+
+        <!-- wrapper -->
+        <div class="wrapper">
+            <div class="wrapper-inner">
+
+                <header>
+                    <a href="#" class="header-menu-link">
+                        <span class="header-menu-link-line-1"></span>
+                        <span class="header-menu-link-line-2"></span>
+                        <span class="header-menu-link-line-3"></span>
+                    </a>
+
+                    <div class="logo"></div>
+
+                    <a href="#" class="header-mobile-link">
+                        <span class="header-mobile-link-line-1"></span>
+                        <span class="header-mobile-link-line-2"></span>
+                        <span class="header-mobile-link-line-3"></span>
+                    </a>
+
+                    <nav>
+                        <ul>
+                            <li class="nav-config"><a href="catalogue-config.html">Подобрать оборудование</a></li>
+                            <li><a href="about.html">О компании</a></li>
+                            <li><a href="catalogue.html">Каталог</a></li>
+                            <li><a href="service.html">Сервис</a></li>
+                            <li><a href="learn.html">Обучение</a></li>
+                            <li><a href="contacts.html">Контакты</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="header-lang">
+                        <span>Ru</span>
+                        <a href="#">En</a>
+                    </div>
+
+                    <div class="header-contacts">
+                        <div class="header-contacts-phone"><a href="tel:+78003337211">8 800 333-72-11</a></div>
+                        <div class="header-contacts-schedule">c 9:00 до 18:00 Мск</div>
+                    </div>
+
+                    <div class="header-search">
+                        <a href="#" class="header-search-link"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 11H11.7L11.4 10.7C12.4 9.6 13 8.1 13 6.5C13 2.9 10.1 0 6.5 0C2.9 0 0 2.9 0 6.5C0 10.1 2.9 13 6.5 13C8.1 13 9.6 12.4 10.7 11.4L11 11.7V12.5L16 17.5L17.5 16L12.5 11ZM6.5 11C4 11 2 9 2 6.5C2 4 4 2 6.5 2C9 2 11 4 11 6.5C11 9 9 11 6.5 11Z" /></svg></a>
+                        <div class="header-search-form">
+                            <form action="#" method="post">
+                                <div class="header-search-input"><input type="text" name="search" value="" placeholder="Введите фразу для поиска" class="required" /><div class="header-search-input-sep"></div></div>
+                                <div class="header-search-submit"><button type="submit"><svg width="14" height="14" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 11H11.7L11.4 10.7C12.4 9.6 13 8.1 13 6.5C13 2.9 10.1 0 6.5 0C2.9 0 0 2.9 0 6.5C0 10.1 2.9 13 6.5 13C8.1 13 9.6 12.4 10.7 11.4L11 11.7V12.5L16 17.5L17.5 16L12.5 11ZM6.5 11C4 11 2 9 2 6.5C2 4 4 2 6.5 2C9 2 11 4 11 6.5C11 9 9 11 6.5 11Z" /></svg></button></div>
+                            </form>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- header menu -->
+                <div class="header-menu">
+                    <div class="header-menu-content">
+                        <div class="header-menu-parent"><a href="catalogue.html">Каталог</a></div>
+                        <div class="header-menu-sub">
+                            <ul>
+                                <li><a href="catalogue.html"><div class="header-menu-sub-icon header-menu-sub-icon-1"></div>Испытательный комплекс АСИС</a></li>
+                                <li><a href="catalogue.html"><div class="header-menu-sub-icon header-menu-sub-icon-2"></div>Серия «Стандарт»</a></li>
+                                <li><a href="catalogue.html"><div class="header-menu-sub-icon header-menu-sub-icon-3"></div>Специальные установки</a></li>
+                                <li><a href="catalogue.html"><div class="header-menu-sub-icon header-menu-sub-icon-4"></div>Полевое оборудование</a></li>
+                                <li><a href="catalogue.html"><div class="header-menu-sub-icon header-menu-sub-icon-5"></div>Дополнительное оборудование</a></li>
+                            </ul>
+                        </div>
+                        <div class="header-menu-parent"><a href="about.html">Компания</a></div>
+                        <div class="header-menu-sub">
+                            <ul>
+                                <li><a href="about.html">Основная информация</a></li>
+                                <li><a href="about.html#history">История</a></li>
+                                <li><a href="about-team.html">Команда</a></li>
+                                <li><a href="about-social.html">Социальная ответственность</a></li>
+                                <li><a href="about-clients.html">Клиентам</a></li>
+                                <li><a href="about-press.html">Пресс-центр</a></li>
+                                <li><a href="about-docs.html">Документация</a></li>
+                            </ul>
+                        </div>
+                        <div class="header-menu-parent"><a href="service.html">Сервис</a></div>
+                        <div class="header-menu-sub">
+                            <ul>
+                                <li><a href="service.html">Пусконаладка</a></li>
+                                <li><a href="service-tech.html">Техобслуживание</a></li>
+                                <li><a href="service-guarantee.html">Гарантийный и постгарантийный ремонт</a></li>
+                            </ul>
+                        </div>
+                        <div class="header-menu-parent"><a href="learn.html">Обучение</a></div>
+                        <div class="header-menu-sub">
+                            <ul>
+                                <li><a href="learn.html">Курсы повышения квалификации</a></li>
+                                <li><a href="learn-consulting.html">Консультации</a></li>
+                                <li><a href="learn-books.html">Книги</a></li>
+                                <li><a href="learn-knowledge.html">База знаний</a></li>
+                            </ul>
+                        </div>
+                        <div class="header-menu-parent"><a href="contacts.html">Контакты</a></div>
+                    </div>
+                    <a href="#" class="header-menu-close"></a>
+                </div>
+                <!-- header menu END -->
+
+                <!-- config menu -->
+                <div class="config-menu">
+                    <div class="config-menu-content">
+                        <form action="catalogue-config.html" method="post">
+                            <div class="config-menu-header">
+                                <div class="container">
+                                    <div class="config-menu-header-inner">
+                                        <div class="config-menu-list">
+                                            <ul>
+                                                <li><label><input type="radio" name="configMain" value="1" checked="checked" /><span>Геотехника</span></label></li>
+                                                <li><label><input type="radio" name="configMain" value="2" /><span>Геомеханика</span></label></li>
+                                            </ul>
+                                        </div>
+                                        <div class="config-menu-help">
+                                            <div class="config-menu-help-icon"><span>?</span></div>
+                                            <div class="config-menu-help-content">
+                                                Геотехника — это такое вот такое.<br />
+                                                Геомеханика — такое вот растакое.<br />
+                                                Геотехника — это такое вот такое.<br />
+                                                Геомеханика — такое вот растакое.<br />
+                                                Геотехника — это такое вот такое.<br />
+                                                Геомеханика — такое вот растакое.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="config-menu-tabs">
+                                <div class="container">
+                                    <!-- config menu tab -->
+                                    <div class="config-menu-tab active">
+                                        <div class="config-menu-tab-header">
+                                            <div class="config-menu-tab-class">Класс грунта</div>
+                                            <div class="config-menu-tab-method">Метод испытаний</div>
+                                        </div>
+                                        <div class="config-menu-tab-params">
+                                            <div class="config-menu-tab-params-class">
+                                                <label><input type="radio" name="class1" value="1" checked="checked" /><span>Дисперсные грунты</span></label>
+                                                <label><input type="radio" name="class1" value="2" /><span>Скальные грунты</span></label>
+                                                <label><input type="radio" name="class1" value="3" /><span>Крупнообломочные грунты</span></label>
+                                                <label><input type="radio" name="class1" value="4" /><span>Скальные грунты</span></label>
+                                            </div>
+                                            <div class="config-menu-tab-params-method">
+                                                <div class="config-menu-tab-params-method-tab active">
+                                                    <label>
+                                                        <input type="checkbox" name="method_1_1_1" /><span>Компрессионное сжатие<em></em></span>
+                                                        <div class="config-menu-tab-params-method-hint">
+                                                            <div class="config-menu-tab-params-method-hint-title">Получаемые характеристики</div>
+                                                            <div class="config-menu-tab-params-method-hint-list">
+                                                                <ul>
+                                                                    <li>Модуль деформаций</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Набухание над нагрузкой</li>
+                                                                    <li>Относительная просадочность</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Давление</li>
+                                                                    <li>Свободное набухание</li>
+                                                                    <li>Начальное просадочное давление</li>
+                                                                    <li>Коэффициент переуплотнения</li>
+                                                                    <li>Давление предварительного уплотнения</li>
+                                                                    <li>…</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                    <label>
+                                                        <input type="checkbox" name="method_1_1_2" /><span>Одноплоскостной срез<em></em></span>
+                                                        <div class="config-menu-tab-params-method-hint">
+                                                            <div class="config-menu-tab-params-method-hint-title">Получаемые характеристики</div>
+                                                            <div class="config-menu-tab-params-method-hint-list">
+                                                                <ul>
+                                                                    <li>Давление</li>
+                                                                    <li>Свободное набухание</li>
+                                                                    <li>Начальное просадочное давление</li>
+                                                                    <li>Коэффициент переуплотнения</li>
+                                                                    <li>Давление предварительного уплотнения</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                    <label>
+                                                        <input type="checkbox" name="method_1_1_3" /><span>Одноосное сжатие<em></em></span>
+                                                        <div class="config-menu-tab-params-method-hint">
+                                                            <div class="config-menu-tab-params-method-hint-title">Получаемые характеристики</div>
+                                                            <div class="config-menu-tab-params-method-hint-list">
+                                                                <ul>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Набухание над нагрузкой</li>
+                                                                    <li>Относительная просадочность</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Давление</li>
+                                                                    <li>Свободное набухание</li>
+                                                                    <li>Начальное просадочное давление</li>
+                                                                    <li>Коэффициент переуплотнения</li>
+                                                                    <li>Давление предварительного уплотнения</li>
+                                                                    <li>…</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                    <label>
+                                                        <input type="checkbox" name="method_1_1_4" /><span>Трехосное сжатие<em></em></span>
+                                                        <div class="config-menu-tab-params-method-hint">
+                                                            <div class="config-menu-tab-params-method-hint-title">Получаемые характеристики</div>
+                                                            <div class="config-menu-tab-params-method-hint-list">
+                                                                <ul>
+                                                                    <li>Набухание над нагрузкой</li>
+                                                                    <li>Относительная просадочность</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Давление</li>
+                                                                    <li>Свободное набухание</li>
+                                                                    <li>Начальное просадочное давление</li>
+                                                                    <li>Коэффициент переуплотнения</li>
+                                                                    <li>Давление предварительного уплотнения</li>
+                                                                    <li>…</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                    <label>
+                                                        <input type="checkbox" name="method_1_1_5" /><span>Морозное пучение<em></em></span>
+                                                        <div class="config-menu-tab-params-method-hint">
+                                                            <div class="config-menu-tab-params-method-hint-title">Получаемые характеристики</div>
+                                                            <div class="config-menu-tab-params-method-hint-list">
+                                                                <ul>
+                                                                    <li>Относительная просадочность</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Давление</li>
+                                                                    <li>Свободное набухание</li>
+                                                                    <li>Начальное просадочное давление</li>
+                                                                    <li>Коэффициент переуплотнения</li>
+                                                                    <li>Давление предварительного уплотнения</li>
+                                                                    <li>…</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                </div>
+                                                <div class="config-menu-tab-params-method-tab">
+                                                    <label>
+                                                        <input type="checkbox" name="method_1_2_1" /><span>Одноплоскостной срез<em></em></span>
+                                                        <div class="config-menu-tab-params-method-hint">
+                                                            <div class="config-menu-tab-params-method-hint-title">Получаемые характеристики</div>
+                                                            <div class="config-menu-tab-params-method-hint-list">
+                                                                <ul>
+                                                                    <li>Модуль деформаций</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Набухание над нагрузкой</li>
+                                                                    <li>Относительная просадочность</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Давление</li>
+                                                                    <li>Свободное набухание</li>
+                                                                    <li>Начальное просадочное давление</li>
+                                                                    <li>Коэффициент переуплотнения</li>
+                                                                    <li>Давление предварительного уплотнения</li>
+                                                                    <li>…</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                    <label>
+                                                        <input type="checkbox" name="method_1_2_2" /><span>Одноосное сжатие<em></em></span>
+                                                        <div class="config-menu-tab-params-method-hint">
+                                                            <div class="config-menu-tab-params-method-hint-title">Получаемые характеристики</div>
+                                                            <div class="config-menu-tab-params-method-hint-list">
+                                                                <ul>
+                                                                    <li>Модуль деформаций</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Набухание над нагрузкой</li>
+                                                                    <li>Относительная просадочность</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Давление</li>
+                                                                    <li>Свободное набухание</li>
+                                                                    <li>Начальное просадочное давление</li>
+                                                                    <li>Коэффициент переуплотнения</li>
+                                                                    <li>Давление предварительного уплотнения</li>
+                                                                    <li>…</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                    <label>
+                                                        <input type="checkbox" name="method_1_2_3" /><span>Трехосное сжатие<em></em></span>
+                                                        <div class="config-menu-tab-params-method-hint">
+                                                            <div class="config-menu-tab-params-method-hint-title">Получаемые характеристики</div>
+                                                            <div class="config-menu-tab-params-method-hint-list">
+                                                                <ul>
+                                                                    <li>Модуль деформаций</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Набухание над нагрузкой</li>
+                                                                    <li>Относительная просадочность</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Давление</li>
+                                                                    <li>Свободное набухание</li>
+                                                                    <li>Начальное просадочное давление</li>
+                                                                    <li>Коэффициент переуплотнения</li>
+                                                                    <li>Давление предварительного уплотнения</li>
+                                                                    <li>…</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                    <label>
+                                                        <input type="checkbox" name="method_1_2_4" /><span>Морозное пучение<em></em></span>
+                                                        <div class="config-menu-tab-params-method-hint">
+                                                            <div class="config-menu-tab-params-method-hint-title">Получаемые характеристики</div>
+                                                            <div class="config-menu-tab-params-method-hint-list">
+                                                                <ul>
+                                                                    <li>Модуль деформаций</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Набухание над нагрузкой</li>
+                                                                    <li>Относительная просадочность</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Давление</li>
+                                                                    <li>Свободное набухание</li>
+                                                                    <li>Начальное просадочное давление</li>
+                                                                    <li>Коэффициент переуплотнения</li>
+                                                                    <li>Давление предварительного уплотнения</li>
+                                                                    <li>…</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                </div>
+                                                <div class="config-menu-tab-params-method-tab">
+                                                    <label>
+                                                        <input type="checkbox" name="method_1_3_1" /><span>Одноосное сжатие<em></em></span>
+                                                        <div class="config-menu-tab-params-method-hint">
+                                                            <div class="config-menu-tab-params-method-hint-title">Получаемые характеристики</div>
+                                                            <div class="config-menu-tab-params-method-hint-list">
+                                                                <ul>
+                                                                    <li>Модуль деформаций</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Набухание над нагрузкой</li>
+                                                                    <li>Относительная просадочность</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Давление</li>
+                                                                    <li>Свободное набухание</li>
+                                                                    <li>Начальное просадочное давление</li>
+                                                                    <li>Коэффициент переуплотнения</li>
+                                                                    <li>Давление предварительного уплотнения</li>
+                                                                    <li>…</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                    <label>
+                                                        <input type="checkbox" name="method_1_3_2" /><span>Трехосное сжатие<em></em></span>
+                                                        <div class="config-menu-tab-params-method-hint">
+                                                            <div class="config-menu-tab-params-method-hint-title">Получаемые характеристики</div>
+                                                            <div class="config-menu-tab-params-method-hint-list">
+                                                                <ul>
+                                                                    <li>Модуль деформаций</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Набухание над нагрузкой</li>
+                                                                    <li>Относительная просадочность</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Давление</li>
+                                                                    <li>Свободное набухание</li>
+                                                                    <li>Начальное просадочное давление</li>
+                                                                    <li>Коэффициент переуплотнения</li>
+                                                                    <li>Давление предварительного уплотнения</li>
+                                                                    <li>…</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                    <label>
+                                                        <input type="checkbox" name="method_1_3_3" /><span>Морозное пучение<em></em></span>
+                                                        <div class="config-menu-tab-params-method-hint">
+                                                            <div class="config-menu-tab-params-method-hint-title">Получаемые характеристики</div>
+                                                            <div class="config-menu-tab-params-method-hint-list">
+                                                                <ul>
+                                                                    <li>Модуль деформаций</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Набухание над нагрузкой</li>
+                                                                    <li>Относительная просадочность</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Давление</li>
+                                                                    <li>Свободное набухание</li>
+                                                                    <li>Начальное просадочное давление</li>
+                                                                    <li>Коэффициент переуплотнения</li>
+                                                                    <li>Давление предварительного уплотнения</li>
+                                                                    <li>…</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                </div>
+                                                <div class="config-menu-tab-params-method-tab">
+                                                    <label>
+                                                        <input type="checkbox" name="method_1_4_1" /><span>Трехосное сжатие<em></em></span>
+                                                        <div class="config-menu-tab-params-method-hint">
+                                                            <div class="config-menu-tab-params-method-hint-title">Получаемые характеристики</div>
+                                                            <div class="config-menu-tab-params-method-hint-list">
+                                                                <ul>
+                                                                    <li>Модуль деформаций</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Набухание над нагрузкой</li>
+                                                                    <li>Относительная просадочность</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Давление</li>
+                                                                    <li>Свободное набухание</li>
+                                                                    <li>Начальное просадочное давление</li>
+                                                                    <li>Коэффициент переуплотнения</li>
+                                                                    <li>Давление предварительного уплотнения</li>
+                                                                    <li>…</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                    <label>
+                                                        <input type="checkbox" name="method_1_4_2" /><span>Морозное пучение<em></em></span>
+                                                        <div class="config-menu-tab-params-method-hint">
+                                                            <div class="config-menu-tab-params-method-hint-title">Получаемые характеристики</div>
+                                                            <div class="config-menu-tab-params-method-hint-list">
+                                                                <ul>
+                                                                    <li>Модуль деформаций</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Набухание над нагрузкой</li>
+                                                                    <li>Относительная просадочность</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Давление</li>
+                                                                    <li>Свободное набухание</li>
+                                                                    <li>Начальное просадочное давление</li>
+                                                                    <li>Коэффициент переуплотнения</li>
+                                                                    <li>Давление предварительного уплотнения</li>
+                                                                    <li>…</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                </div>
+
+                                                <div class="config-menu-tab-params-submit"><input type="submit" value="Показать варианты" class="btn" /></div>
+                                            </div>
+                                            <div class="config-menu-tab-params-hints">
+                                                <div class="config-menu-tab-params-hints-default">
+                                                    <div class="config-menu-tab-params-hints-default-text">Если ни один прибор не соответствует вашим задачам —  мы можем разработать и&nbsp;произвести испытательную установку с&nbsp;необходимыми вам характеристиками.</div>
+                                                    <div class="config-menu-tab-params-hints-default-link"><a href="windows/consult.html" class="window-link">Оформить заявку</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- config menu tab END -->
+
+                                    <!-- config menu tab -->
+                                    <div class="config-menu-tab">
+                                        <div class="config-menu-tab-header">
+                                            <div class="config-menu-tab-class">Класс породы</div>
+                                            <div class="config-menu-tab-method">Метод испытаний</div>
+                                        </div>
+                                        <div class="config-menu-tab-params">
+                                            <div class="config-menu-tab-params-class">
+                                                <label>
+                                                    <input type="radio" name="class2" value="1" checked="checked" /><span>Горная порода</span>
+                                                    <div class="config-menu-tab-params-method-hint">
+                                                        <div class="config-menu-tab-params-method-hint-title">Получаемые характеристики</div>
+                                                        <div class="config-menu-tab-params-method-hint-list">
+                                                            <ul>
+                                                                <li>Модуль деформаций</li>
+                                                                <li>Структурная прочность</li>
+                                                                <li>Набухание над нагрузкой</li>
+                                                                <li>Относительная просадочность</li>
+                                                                <li>Структурная прочность</li>
+                                                                <li>Давление</li>
+                                                                <li>Свободное набухание</li>
+                                                                <li>Начальное просадочное давление</li>
+                                                                <li>Коэффициент переуплотнения</li>
+                                                                <li>Давление предварительного уплотнения</li>
+                                                                <li>…</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                            <div class="config-menu-tab-params-method">
+                                                <div class="config-menu-tab-params-method-tab active">
+                                                    <label>
+                                                        <input type="checkbox" name="method_2_1_1" /><span>Компрессионное сжатие<em></em></span>
+                                                        <div class="config-menu-tab-params-method-hint">
+                                                            <div class="config-menu-tab-params-method-hint-title">Получаемые характеристики</div>
+                                                            <div class="config-menu-tab-params-method-hint-list">
+                                                                <ul>
+                                                                    <li>Модуль деформаций</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Набухание над нагрузкой</li>
+                                                                    <li>Относительная просадочность</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Давление</li>
+                                                                    <li>Свободное набухание</li>
+                                                                    <li>Начальное просадочное давление</li>
+                                                                    <li>Коэффициент переуплотнения</li>
+                                                                    <li>Давление предварительного уплотнения</li>
+                                                                    <li>…</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                    <label>
+                                                        <input type="checkbox" name="method_2_1_2" /><span>Одноплоскостной срез<em></em></span>
+                                                        <div class="config-menu-tab-params-method-hint">
+                                                            <div class="config-menu-tab-params-method-hint-title">Получаемые характеристики</div>
+                                                            <div class="config-menu-tab-params-method-hint-list">
+                                                                <ul>
+                                                                    <li>Модуль деформаций</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Набухание над нагрузкой</li>
+                                                                    <li>Относительная просадочность</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Давление</li>
+                                                                    <li>Свободное набухание</li>
+                                                                    <li>Начальное просадочное давление</li>
+                                                                    <li>Коэффициент переуплотнения</li>
+                                                                    <li>Давление предварительного уплотнения</li>
+                                                                    <li>…</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                    <label>
+                                                        <input type="checkbox" name="method_2_1_3" /><span>Одноосное сжатие<em></em></span>
+                                                        <div class="config-menu-tab-params-method-hint">
+                                                            <div class="config-menu-tab-params-method-hint-title">Получаемые характеристики</div>
+                                                            <div class="config-menu-tab-params-method-hint-list">
+                                                                <ul>
+                                                                    <li>Модуль деформаций</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Набухание над нагрузкой</li>
+                                                                    <li>Относительная просадочность</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Давление</li>
+                                                                    <li>Свободное набухание</li>
+                                                                    <li>Начальное просадочное давление</li>
+                                                                    <li>Коэффициент переуплотнения</li>
+                                                                    <li>Давление предварительного уплотнения</li>
+                                                                    <li>…</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                    <label>
+                                                        <input type="checkbox" name="method_2_1_4" /><span>Трехосное сжатие<em></em></span>
+                                                        <div class="config-menu-tab-params-method-hint">
+                                                            <div class="config-menu-tab-params-method-hint-title">Получаемые характеристики</div>
+                                                            <div class="config-menu-tab-params-method-hint-list">
+                                                                <ul>
+                                                                    <li>Модуль деформаций</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Набухание над нагрузкой</li>
+                                                                    <li>Относительная просадочность</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Давление</li>
+                                                                    <li>Свободное набухание</li>
+                                                                    <li>Начальное просадочное давление</li>
+                                                                    <li>Коэффициент переуплотнения</li>
+                                                                    <li>Давление предварительного уплотнения</li>
+                                                                    <li>…</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                    <label>
+                                                        <input type="checkbox" name="method_2_1_5" /><span>Морозное пучение<em></em></span>
+                                                        <div class="config-menu-tab-params-method-hint">
+                                                            <div class="config-menu-tab-params-method-hint-title">Получаемые характеристики</div>
+                                                            <div class="config-menu-tab-params-method-hint-list">
+                                                                <ul>
+                                                                    <li>Модуль деформаций</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Набухание над нагрузкой</li>
+                                                                    <li>Относительная просадочность</li>
+                                                                    <li>Структурная прочность</li>
+                                                                    <li>Давление</li>
+                                                                    <li>Свободное набухание</li>
+                                                                    <li>Начальное просадочное давление</li>
+                                                                    <li>Коэффициент переуплотнения</li>
+                                                                    <li>Давление предварительного уплотнения</li>
+                                                                    <li>…</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                </div>
+
+                                                <div class="config-menu-tab-params-submit"><input type="submit" value="Показать варианты" class="btn" /></div>
+                                            </div>
+                                            <div class="config-menu-tab-params-hints">
+                                                <div class="config-menu-tab-params-hints-default">
+                                                    <div class="config-menu-tab-params-hints-default-text">Если ни один прибор не соответствует вашим задачам —  мы можем разработать и&nbsp;произвести испытательную установку с&nbsp;необходимыми вам характеристиками.</div>
+                                                    <div class="config-menu-tab-params-hints-default-link"><a href="windows/consult.html" class="window-link">Оформить заявку</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- config menu tab END -->
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- config menu END -->
+
+                <!-- mobile menu -->
+                <div class="mobile-menu">
+                    <div class="mobile-menu-content">
+
+                        <div class="mobile-search">
+                            <form action="#" method="post">
+                                <div class="mobile-search-input"><input type="text" name="search" value="" placeholder="Введите фразу для поиска" class="required" /><div class="mobile-search-input-sep"></div></div>
+                                <div class="mobile-search-submit"><button type="submit"><svg width="14" height="14" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 11H11.7L11.4 10.7C12.4 9.6 13 8.1 13 6.5C13 2.9 10.1 0 6.5 0C2.9 0 0 2.9 0 6.5C0 10.1 2.9 13 6.5 13C8.1 13 9.6 12.4 10.7 11.4L11 11.7V12.5L16 17.5L17.5 16L12.5 11ZM6.5 11C4 11 2 9 2 6.5C2 4 4 2 6.5 2C9 2 11 4 11 6.5C11 9 9 11 6.5 11Z" /></svg></button></div>
+                            </form>
+                        </div>
+
+                        <a href="catalogue-config.html" class="mobile-config-link"><span>Подобрать оборудование</span></a>
+
+                        <!-- config menu mobile -->
+                        <div class="config-menu-mobile">
+                            <form action="catalogue-config.html" method="post">
+                                <div class="config-menu-mobile-header">
+                                    <div class="container">
+                                        <div class="config-menu-mobile-header-inner">
+                                            <div class="config-menu-mobile-list">
+                                                <ul>
+                                                    <li><label><input type="radio" name="configMain" value="1" checked="checked" /><span>Геотехника</span></label></li>
+                                                    <li><label><input type="radio" name="configMain" value="2" /><span>Геомеханика</span></label></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="config-menu-mobile-tabs">
+                                    <div class="container">
+                                        <!-- config menu mobile tab -->
+                                        <div class="config-menu-mobile-tab active">
+                                            <div class="config-menu-mobile-tab-header">
+                                                <div class="config-menu-mobile-tab-class">Класс грунта</div>
+                                            </div>
+                                            <div class="config-menu-mobile-tab-params">
+                                                <div class="config-menu-mobile-tab-params-class">
+                                                    <label><input type="checkbox" name="class1" value="1" /><span>Дисперсные грунты</span></label>
+                                                    <label><input type="checkbox" name="class1" value="2" /><span>Скальные грунты</span></label>
+                                                    <label><input type="checkbox" name="class1" value="3" /><span>Крупнообломочные грунты</span></label>
+                                                    <label><input type="checkbox" name="class1" value="4" /><span>Скальные грунты</span></label>
+                                                </div>
+                                                <div class="config-menu-mobile-tab-params-method">
+                                                    <div class="config-menu-mobile-tab-params-method-tab active">
+                                                        <div class="config-menu-mobile-tab-header">
+                                                            <div class="config-menu-mobile-tab-method">Метод испытаний</div>
+                                                        </div>
+                                                        <label><input type="checkbox" name="method_1_1_1" /><span>Компрессионное сжатие</span></label>
+                                                        <label><input type="checkbox" name="method_1_1_2" /><span>Одноплоскостной срез</span></label>
+                                                        <label><input type="checkbox" name="method_1_1_3" /><span>Одноосное сжатие</span></label>
+                                                        <label><input type="checkbox" name="method_1_1_4" /><span>Трехосное сжатие</span></label>
+                                                        <label><input type="checkbox" name="method_1_1_5" /><span>Морозное пучение</span></label>
+                                                    </div>
+                                                    <div class="config-menu-mobile-tab-params-method-tab">
+                                                        <div class="config-menu-mobile-tab-header">
+                                                            <div class="config-menu-mobile-tab-method">Метод испытаний</div>
+                                                        </div>
+                                                        <label><input type="checkbox" name="method_1_2_1" /><span>Одноплоскостной срез</span></label>
+                                                        <label><input type="checkbox" name="method_1_2_2" /><span>Одноосное сжатие</span></label>
+                                                        <label><input type="checkbox" name="method_1_2_3" /><span>Трехосное сжатие</span></label>
+                                                        <label><input type="checkbox" name="method_1_2_4" /><span>Морозное пучение</span></label>
+                                                    </div>
+                                                    <div class="config-menu-mobile-tab-params-method-tab">
+                                                        <div class="config-menu-mobile-tab-header">
+                                                            <div class="config-menu-mobile-tab-method">Метод испытаний</div>
+                                                        </div>
+                                                        <label><input type="checkbox" name="method_1_3_1" /><span>Одноосное сжатие</span></label>
+                                                        <label><input type="checkbox" name="method_1_3_2" /><span>Трехосное сжатие</span></label>
+                                                        <label><input type="checkbox" name="method_1_3_3" /><span>Морозное пучение</span></label>
+                                                    </div>
+                                                    <div class="config-menu-mobile-tab-params-method-tab">
+                                                        <div class="config-menu-mobile-tab-header">
+                                                            <div class="config-menu-mobile-tab-method">Метод испытаний</div>
+                                                        </div>
+                                                        <label><input type="checkbox" name="method_1_4_1" /><span>Трехосное сжатие</span></label>
+                                                        <label><input type="checkbox" name="method_1_4_2" /><span>Морозное пучение</span></label>
+                                                    </div>
+
+                                                    <div class="config-menu-mobile-tab-params-submit"><input type="submit" value="Показать варианты" class="btn" /></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- config menu mobile tab END -->
+
+                                        <!-- config menu mobile tab -->
+                                        <div class="config-menu-mobile-tab">
+                                            <div class="config-menu-mobile-tab-header">
+                                                <div class="config-menu-mobile-tab-class">Класс породы</div>
+                                            </div>
+                                            <div class="config-menu-mobile-tab-params">
+                                                <div class="config-menu-mobile-tab-params-class">
+                                                    <label><input type="checkbox" name="class2" value="1" /><span>Горная порода</span></label>
+                                                </div>
+                                                <div class="config-menu-mobile-tab-params-method">
+                                                    <div class="config-menu-mobile-tab-params-method-tab active">
+                                                        <div class="config-menu-mobile-tab-header">
+                                                            <div class="config-menu-mobile-tab-method">Метод испытаний</div>
+                                                        </div>
+                                                        <label><input type="checkbox" name="method_2_1_1" /><span>Компрессионное сжатие</span></label>
+                                                        <label><input type="checkbox" name="method_2_1_2" /><span>Одноплоскостной срез</span></label>
+                                                        <label><input type="checkbox" name="method_2_1_3" /><span>Одноосное сжатие</span></label>
+                                                        <label><input type="checkbox" name="method_2_1_4" /><span>Трехосное сжатие</span></label>
+                                                        <label><input type="checkbox" name="method_2_1_5" /><span>Морозное пучение</span></label>
+                                                    </div>
+
+                                                    <div class="config-menu-mobile-tab-params-submit"><input type="submit" value="Показать варианты" class="btn" /></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- config menu mobile tab END -->
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- config menu mobile END -->
+
+                        <div class="mobile-menu-list">
+                            <ul>
+                                <li>
+                                    <a href="catalogue.html"><span>Каталог</span></a>
+                                    <ul>
+                                        <li><a href="catalogue.html">Испытательный комплекс АСИС</a></li>
+                                        <li><a href="catalogue.html">Серия «Стандарт»</a></li>
+                                        <li><a href="catalogue.html">Специальные установки</a></li>
+                                        <li><a href="catalogue.html">Полевое оборудование</a></li>
+                                        <li><a href="catalogue.html">Дополнительное оборудование</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="about.html"><span>Компания</span></a>
+                                    <ul>
+                                        <li><a href="about.html">Основная информация</a></li>
+                                        <li><a href="about.html#history">История</a></li>
+                                        <li><a href="about-team.html">Команда</a></li>
+                                        <li><a href="about-social.html">Социальная ответственность</a></li>
+                                        <li><a href="about-clients.html">Клиентам</a></li>
+                                        <li><a href="about-press.html">Пресс-центр</a></li>
+                                        <li><a href="about-docs.html">Документация</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="service.html"><span>Сервис</span></a>
+                                    <ul>
+                                        <li><a href="service.html">Пусконаладка</a></li>
+                                        <li><a href="service-tech.html">Техобслуживание</a></li>
+                                        <li><a href="service-guarantee.html">Гарантийный и постгарантийный ремонт</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="learn.html"><span>Обучение</span></a>
+                                    <ul>
+                                        <li><a href="learn.html">Курсы повышения квалификации</a></li>
+                                        <li><a href="learn-consulting.html">Консультации</a></li>
+                                        <li><a href="learn-books.html">Книги</a></li>
+                                        <li><a href="learn-knowledge.html">База знаний</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contacts.html"><span>Контакты</span></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="mobile-contacts">
+                            <div class="mobile-contacts-phone"><a href="tel:+78003337211">8 800 333-72-11</a></div>
+                            <div class="mobile-contacts-schedule">c 9:00 до 18:00 Мск</div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- mobile menu END -->
+
+                <!-- main config -->
+                <div class="main-config" id="config">
+                    <div class="main-config-inner">
+                        <div class="container">
+                            <div class="main-config-content">
+                                <div class="main-config-text">Автоматизированные приборы и комплексы для исследования механических свойств грунтов и горных пород</div>
+                                <div class="main-config-btn"><a href="#" class="btn">Подобрать оборудование</a></div>
+                            </div>
+                            <div class="main-config-img"><img src="images/main-config-img.jpg" alt="" /></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- main config END -->
+
+                <!-- main about -->
+                <div class="main-about" id="about">
+                    <div class="main-about-inner">
+                        <div class="container">
+                            <div class="main-about-map">
+                                <div class="main-about-map-circle-01"></div>
+                                <div class="main-about-map-circle-02"></div>
+                                <div class="main-about-map-circle-03"></div>
+                                <div class="main-about-map-circle-04"></div>
+                                <div class="main-about-map-circle-05"></div>
+                                <div class="main-about-map-circle-06"></div>
+                                <div class="main-about-map-circle-07"></div>
+                                <div class="main-about-map-circle-08"></div>
+                                <div class="main-about-map-circle-09"></div>
+                                <div class="main-about-map-circle-10"></div>
+                                <div class="main-about-map-circle-11"></div>
+                                <div class="main-about-map-info-1"><img src="images/main-about-map-info-1.svg" alt="" /></div>
+                                <div class="main-about-map-info-2"><img src="images/main-about-map-info-2.svg" alt="" /></div>
+                                <div class="main-about-map-info-3"><img src="images/main-about-map-info-3.svg" alt="" /></div>
+                            </div>
+                            <div class="main-about-content">
+                                <div class="main-about-title">Опыт НПП Геотек —<br /> в основе лабораторий<br /> в 11 странах мира</div>
+                                <div class="main-about-list">
+                                    <div class="main-about-list-item"><img src="images/main-about-list-1.svg" alt="" />Собственная разработка и серийное производство;</div>
+                                    <div class="main-about-list-item"><img src="images/main-about-list-2.svg" alt="" />качество без нареканий за все время работы;</div>
+                                    <div class="main-about-list-item"><img src="images/main-about-list-3.svg" alt="" />дешевле зарубежных аналогов;</div>
+                                    <div class="main-about-list-item"><img src="images/main-about-list-4.svg" alt="" />монтаж и настройка, обучение персонала, гарантийное и постгарантийное обслуживание.</div>
+                                </div>
+                                <div class="main-about-btn"><a href="about.html">Подробнее о компании</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- main about END -->
+
+                <!-- main sectors -->
+                <div class="main-sectors" id="sectors">
+                    <div class="main-sectors-content-mobile-top">
+                        <div class="container">
+                            <div class="main-sectors-title">Универсальные и&nbsp;гибкие в&nbsp;настройке</div>
+                            <div class="main-sectors-text">приборы НПП Геотек используются нашими Клиентами для решения изыскательных задач любой сложности и масштаба</div>
+                        </div>
+                    </div>
+                    <div class="main-sectors-list">
+                        <div class="main-sectors-item">
+                            <div class="main-sectors-item-inner" style="background-image:url(files/main-sectors.jpg)">
+                                <div class="main-sectors-item-content">
+                                    <div class="main-sectors-item-info-title">Космодром «Восточный»</div>
+                                    <div class="main-sectors-item-info-text">инженерные изыскания проведены нашим клиентом в Амурской области</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main-sectors-item">
+                            <div class="main-sectors-item-inner" style="background-image:url(files/main-sectors.jpg)">
+                                <div class="main-sectors-item-content">
+                                    <div class="main-sectors-item-info-title">Адлерское кольцо</div>
+                                    <div class="main-sectors-item-info-text">инженерные изыскания проведены нашим клиентом в Амурской области</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main-sectors-item">
+                            <div class="main-sectors-item-inner" style="background-image:url(files/main-sectors.jpg)">
+                                <div class="main-sectors-item-content">
+                                    <div class="main-sectors-item-info-title">Большая ледовая арена в Сочи</div>
+                                    <div class="main-sectors-item-info-text">инженерные изыскания проведены нашим клиентом в Амурской области</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main-sectors-item">
+                            <div class="main-sectors-item-inner" style="background-image:url(files/main-sectors.jpg)">
+                                <div class="main-sectors-item-content">
+                                    <div class="main-sectors-item-info-title">Газопровод «Сила Сибири»</div>
+                                    <div class="main-sectors-item-info-text">инженерные изыскания проведены нашим клиентом в Амурской области</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main-sectors-item">
+                            <div class="main-sectors-item-inner" style="background-image:url(files/main-sectors.jpg)">
+                                <div class="main-sectors-item-content">
+                                    <div class="main-sectors-item-info-title">Космодром «Восточный»</div>
+                                    <div class="main-sectors-item-info-text">инженерные изыскания проведены нашим клиентом в Амурской области</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main-sectors-item">
+                            <div class="main-sectors-item-inner" style="background-image:url(files/main-sectors.jpg)">
+                                <div class="main-sectors-item-content">
+                                    <div class="main-sectors-item-info-title">Космодром «Восточный»</div>
+                                    <div class="main-sectors-item-info-text">инженерные изыскания проведены нашим клиентом в Амурской области</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main-sectors-item">
+                            <div class="main-sectors-item-inner" style="background-image:url(files/main-sectors.jpg)">
+                                <div class="main-sectors-item-content">
+                                    <div class="main-sectors-item-info-title">Космодром «Восточный»</div>
+                                    <div class="main-sectors-item-info-text">инженерные изыскания проведены нашим клиентом в Амурской области</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main-sectors-item">
+                            <div class="main-sectors-item-inner" style="background-image:url(files/main-sectors.jpg)">
+                                <div class="main-sectors-item-content">
+                                    <div class="main-sectors-item-info-title">Космодром «Восточный»</div>
+                                    <div class="main-sectors-item-info-text">инженерные изыскания проведены нашим клиентом в Амурской области</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main-sectors-item">
+                            <div class="main-sectors-item-inner" style="background-image:url(files/main-sectors.jpg)">
+                                <div class="main-sectors-item-content">
+                                    <div class="main-sectors-item-info-title">Космодром «Восточный»</div>
+                                    <div class="main-sectors-item-info-text">инженерные изыскания проведены нашим клиентом в Амурской области</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main-sectors-item">
+                            <div class="main-sectors-item-inner" style="background-image:url(files/main-sectors.jpg)">
+                                <div class="main-sectors-item-content">
+                                    <div class="main-sectors-item-info-title">Космодром «Восточный»</div>
+                                    <div class="main-sectors-item-info-text">инженерные изыскания проведены нашим клиентом в Амурской области</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main-sectors-item-info">
+                        <div class="container">
+                            <div class="main-sectors-item-info-wrap">
+                                <div class="main-sectors-item-info-inner">
+                                    <div class="main-sectors-item-info-slider"></div>
+                                    <div class="main-sectors-item-info-ctrl"><span class="main-sectors-item-info-current">01</span> / <span class="main-sectors-item-info-count">1</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main-sectors-content">
+                        <div class="container">
+                            <div class="main-sectors-info">
+                                <div class="main-sectors-title">Универсальные и&nbsp;гибкие в&nbsp;настройке</div>
+                                <div class="main-sectors-text">приборы НПП Геотек используются нашими Клиентами для решения изыскательных задач любой сложности и масштаба</div>
+                                <a href="catalogue.html" class="main-sectors-info-btn">Каталог продукции</a>
+                                <a href="about.html#sectors" class="main-sectors-info-btn">Отрасли применения</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- main sectors END -->
+                <div class="main-sectors-content-mobile-bottom">
+                    <div class="container">
+                        <a href="catalogue.html" class="main-sectors-info-btn">Каталог продукции</a>
+                        <a href="about.html#sectors" class="main-sectors-info-btn">Отрасли применения</a>
+                    </div>
+                </div>
+
+                <!-- main service -->
+                <div class="main-service" id="service">
+                    <div class="main-service-inner">
+                        <div class="container">
+                            <div class="main-service-photo">
+                                <div class="main-service-photo-item">
+                                    <div class="main-service-photo-item-line"><img src="files/service-process.jpg" alt=""></div>
+                                    <div class="main-service-photo-item-line"><img src="files/service-process.jpg" alt=""></div>
+                                    <div class="main-service-photo-item-line"><img src="files/service-process.jpg" alt=""></div>
+                                </div>
+                                <div class="main-service-photo-item">
+                                    <div class="main-service-photo-item-line"><img src="files/about-clients.jpg" alt=""></div>
+                                    <div class="main-service-photo-item-line"><img src="files/about-clients.jpg" alt=""></div>
+                                    <div class="main-service-photo-item-line"><img src="files/about-clients.jpg" alt=""></div>
+                                </div>
+                                <div class="main-service-photo-item">
+                                    <div class="main-service-photo-item-line"><img src="files/about-clients-2.jpg" alt=""></div>
+                                    <div class="main-service-photo-item-line"><img src="files/about-clients-2.jpg" alt=""></div>
+                                    <div class="main-service-photo-item-line"><img src="files/about-clients-2.jpg" alt=""></div>
+                                </div>
+                                <div class="main-service-photo-item">
+                                    <div class="main-service-photo-item-line"><img src="files/course-prefs.jpg" alt=""></div>
+                                    <div class="main-service-photo-item-line"><img src="files/course-prefs.jpg" alt=""></div>
+                                    <div class="main-service-photo-item-line"><img src="files/course-prefs.jpg" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="main-service-content">
+                                <div class="main-service-content-inner">
+                                    <div class="main-service-title">Быстрый и надежный сервис</div>
+                                    <div class="main-service-text">Если вы заказываете у нас оборудование, то можете быть уверены, что любая проблема будет решена в сжатые сроки: либо удаленно, либо нашим выездным инженером в любой точке мира.</div>
+                                    <div class="main-service-list">
+                                        <div class="main-service-item">
+                                            <a href="service.html"><img src="images/main-service-icon-1.svg" alt="" />Пусконаладочные<br /> работы</a>
+                                        </div>
+                                        <div class="main-service-item">
+                                            <a href="service-tech.html"><img src="images/main-service-icon-2.svg" alt="" />Техническое<br /> обслуживание</a>
+                                        </div>
+                                        <div class="main-service-item">
+                                            <a href="service-guarantee.html"><img src="images/main-service-icon-3.svg" alt="" />Гарантийный<br /> и постгарантийный ремонт</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- main service END -->
+
+                <!-- main learn -->
+                <div class="main-learn" id="learn">
+                    <div class="main-learn-inner">
+                        <div class="container">
+                            <div class="main-learn-header">
+                                <div class="main-learn-title">Обучение и консультации</div>
+                                <div class="main-learn-menu">
+                                    <ul>
+                                        <li><a href="learn.html">Курсы</a></li>
+                                        <li><a href="learn-consult.html">Консультации</a></li>
+                                        <li><a href="learn-books.html">Книги</a></li>
+                                        <li><a href="learn-knowledge.html">База знаний</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="main-learn-text">
+                                В рамках договора поставки научим вас работать с приобретаемым оборудованием:
+                                <ul>
+                                    <li><img src="images/main-learn-icon-1.svg" alt="" />выезд на ваше предприятие;</li>
+                                    <li><img src="images/main-learn-icon-2.svg" alt="" />практика на реальных образцах грунтов и пород;</li>
+                                    <li><img src="images/main-learn-icon-3.svg" alt="" />методические пособия в комплекте;</li>
+                                    <li><img src="images/main-learn-icon-4.svg" alt="" />возможность записи процесса обучения на видео.</li>
+                                </ul>
+                            </div>
+
+                            <div class="main-learn-list">
+                                <div class="main-learn-item">
+                                    <a href="learn.html" class="main-learn-item-main">
+                                        <div class="main-learn-item-main-border-1"></div>
+                                        <div class="main-learn-item-main-border-2"></div>
+                                        <div class="main-learn-item-main-line-1"></div>
+                                        <div class="main-learn-item-main-line-2"></div>
+                                        <div class="main-learn-item-main-line-3"></div>
+                                        <div class="main-learn-item-main-title">Курсы повышения квалификации</div>
+                                    </a>
+                                </div>
+
+                                <div class="main-learn-item">
+                                    <a href="learn-course-1.html" class="main-learn-item-course">
+                                        <div class="main-learn-item-course-type">Курс</div>
+                                        <div class="main-learn-item-course-title">Инженерно-геологические изыскания (ИГИ) и определение физико-механических свойств грунтов в полевых и лабораторных условиях</div>
+                                        <div class="main-learn-item-course-date">
+                                            <div class="main-learn-item-course-date-days">17-21</div>
+                                            <div class="main-learn-item-course-date-month">а п р</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="main-learn-item">
+                                    <a href="learn-course-2.html" class="main-learn-item-course">
+                                        <div class="main-learn-item-course-type">Курс</div>
+                                        <div class="main-learn-item-course-title">Методика определения параметров механических моделей упрочняющегося грунта и слабого грунта</div>
+                                        <div class="main-learn-item-course-date">
+                                            <div class="main-learn-item-course-date-days">17-21</div>
+                                            <div class="main-learn-item-course-date-month">а п р</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="main-learn-menu-mobile">
+                                <ul>
+                                    <li><a href="learn.html">Все курсы</a></li>
+                                    <li><a href="learn-consult.html">Консультации</a></li>
+                                    <li><a href="learn-books.html">Книги</a></li>
+                                    <li><a href="learn-knowledge.html">База знаний</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- main learn END -->
+
+                <!-- main press -->
+                <div class="main-press" id="press">
+                    <div class="main-press-inner">
+                        <div class="container">
+                            <div class="main-learn-header">
+                                <div class="main-learn-title">Пресс-центр</div>
+                                <div class="main-learn-menu">
+                                    <ul>
+                                        <li><a href="about-press.html">События</a></li>
+                                        <li><a href="about-press.html">Теория и практика</a></li>
+                                        <li><a href="about-press.html">Презентации</a></li>
+                                        <li><img src="images/docs-icon-pdf.svg" alt="" /><a href="#" class="main-learn-menu-download">Скачать пресс-кит</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="main-press-list">
+                                <div class="main-press-list-inner">
+
+                                    <div class="main-press-item">
+                                        <a href="about-press-detail.html">
+                                            <div class="main-press-item-photo">
+                                                <div class="main-press-item-photo-inner"><img src="files/press-1.jpg" alt="" /></div>
+                                                <div class="main-press-item-type"><img src="images/press-type-1.svg" alt="" />Теория и практика</div>
+                                            </div>
+                                            <div class="main-press-item-title">Как правильно собирать камеру трехосного сжатия</div>
+                                            <div class="main-press-item-date">24 августа 2018</div>
+                                        </a>
+                                    </div>
+
+                                    <div class="main-press-item">
+                                        <a href="about-press-detail.html">
+                                            <div class="main-press-item-photo">
+                                                <div class="main-press-item-photo-inner"><img src="files/press-2.jpg" alt="" /></div>
+                                                <div class="main-press-item-type"><img src="images/press-type-1.svg" alt="" />Теория и практика</div>
+                                            </div>
+                                            <div class="main-press-item-title">Почему при проведении испытаний на срез получаются неправильные значения удельного сцепления</div>
+                                            <div class="main-press-item-date">24 августа 2018</div>
+                                        </a>
+                                    </div>
+
+                                    <div class="main-press-item">
+                                        <a href="about-press-detail.html">
+                                            <div class="main-press-item-photo">
+                                                <div class="main-press-item-photo-inner"><img src="files/press-3.jpg" alt="" /></div>
+                                                <div class="main-press-item-type"><img src="images/press-type-2.svg" alt="" />События</div>
+                                            </div>
+                                            <div class="main-press-item-title">НПП Геотек открывает новый производственный цех</div>
+                                            <div class="main-press-item-date">11 июля 2018</div>
+                                        </a>
+                                    </div>
+
+                                    <div class="main-press-item">
+                                        <a href="about-press-detail.html">
+                                            <div class="main-press-item-photo">
+                                                <div class="main-press-item-photo-inner"><img src="files/press-1.jpg" alt="" /></div>
+                                                <div class="main-press-item-type"><img src="images/press-type-1.svg" alt="" />Теория и практика</div>
+                                            </div>
+                                            <div class="main-press-item-title">Как правильно собирать камеру трехосного сжатия</div>
+                                            <div class="main-press-item-date">24 августа 2018</div>
+                                        </a>
+                                    </div>
+
+                                    <div class="main-press-item">
+                                        <a href="about-press-detail.html">
+                                            <div class="main-press-item-photo">
+                                                <div class="main-press-item-photo-inner"><img src="files/press-2.jpg" alt="" /></div>
+                                                <div class="main-press-item-type"><img src="images/press-type-1.svg" alt="" />Теория и практика</div>
+                                            </div>
+                                            <div class="main-press-item-title">Почему при проведении испытаний на срез получаются неправильные значения удельного сцепления</div>
+                                            <div class="main-press-item-date">24 августа 2018</div>
+                                        </a>
+                                    </div>
+
+                                    <div class="main-press-item">
+                                        <a href="about-press-detail.html">
+                                            <div class="main-press-item-photo">
+                                                <div class="main-press-item-photo-inner"><img src="files/press-3.jpg" alt="" /></div>
+                                                <div class="main-press-item-type"><img src="images/press-type-2.svg" alt="" />События</div>
+                                            </div>
+                                            <div class="main-press-item-title">НПП Геотек открывает новый производственный цех</div>
+                                            <div class="main-press-item-date">11 июля 2018</div>
+                                        </a>
+                                    </div>
+
+                                    <div class="main-press-item">
+                                        <a href="about-press-detail.html">
+                                            <div class="main-press-item-photo">
+                                                <div class="main-press-item-photo-inner"><img src="files/press-1.jpg" alt="" /></div>
+                                                <div class="main-press-item-type"><img src="images/press-type-1.svg" alt="" />Теория и практика</div>
+                                            </div>
+                                            <div class="main-press-item-title">Как правильно собирать камеру трехосного сжатия</div>
+                                            <div class="main-press-item-date">24 августа 2018</div>
+                                        </a>
+                                    </div>
+
+                                    <div class="main-press-item">
+                                        <a href="about-press-detail.html">
+                                            <div class="main-press-item-photo">
+                                                <div class="main-press-item-photo-inner"><img src="files/press-2.jpg" alt="" /></div>
+                                                <div class="main-press-item-type"><img src="images/press-type-1.svg" alt="" />Теория и практика</div>
+                                            </div>
+                                            <div class="main-press-item-title">Почему при проведении испытаний на срез получаются неправильные значения удельного сцепления</div>
+                                            <div class="main-press-item-date">24 августа 2018</div>
+                                        </a>
+                                    </div>
+
+                                    <div class="main-press-item">
+                                        <a href="about-press-detail.html">
+                                            <div class="main-press-item-photo">
+                                                <div class="main-press-item-photo-inner"><img src="files/press-3.jpg" alt="" /></div>
+                                                <div class="main-press-item-type"><img src="images/press-type-2.svg" alt="" />События</div>
+                                            </div>
+                                            <div class="main-press-item-title">НПП Геотек открывает новый производственный цех</div>
+                                            <div class="main-press-item-date">11 июля 2018</div>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <div class="main-press-status"></div>
+                            </div>
+                            <div class="main-learn-menu-mobile">
+                                <ul>
+                                    <li><a href="about-press.html">События</a></li>
+                                    <li><a href="about-press.html">Теория и практика</a></li>
+                                    <li><a href="about-press.html">Презентации</a></li>
+                                    <li><img src="images/docs-icon-pdf.svg" alt="" /><a href="#" class="main-learn-menu-download">Скачать пресс-кит</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- main press END -->
+
+                <!-- main contacts -->
+                <div class="main-contacts" id="contacts">
+                    <div class="main-contacts-inner">
+                        <div class="container">
+                            <div class="main-contacts-logo"><img src="images/main-footer-logo.png" alt="" /></div>
+                            <div class="main-contacts-content">
+                                <div class="main-contacts-main">
+                                    <div class="main-contacts-title">Контакты</div>
+                                    <div class="main-contacts-text">Научно-производственное предприятие «Геотек»<br /> 440068, г. Пенза ул. Центральная, 1</div>
+                                </div>
+                                <div class="main-contacts-item">
+                                    <div class="main-contacts-item-title">Техподдержка:</div>
+                                    <div class="main-contacts-item-text">
+                                        <p><a href="mailto:support@npp-geotek.ru">support@npp-geotek.ru</a></p>
+                                        <p>skype: <a href="skype:geotek_1">geotek_1</a><span>,</span> <a href="skype:geotek_3">geotek_3</a></p>
+                                    </div>
+                                    <a href="windows/support.html" class="window-link main-contacts-item-btn"><span>Обращение в&nbsp;техподдержку</span></a>
+                                </div>
+                                <div class="main-contacts-item">
+                                    <div class="main-contacts-item-title">Отдел продаж:</div>
+                                    <div class="main-contacts-item-text">
+                                        <p><a href="tel:+78002001605">8 (800) 200-16-05</a></p>
+                                        <p><a href="mailto:info@npp-geotek.ru">info@npp-geotek.ru</a></p>
+                                    </div>
+                                    <a href="windows/feedback.html" class="window-link main-contacts-item-btn"><span>Обратная связь</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- main contacts END -->
+
+                <div class="side-menu">
+                    <ul>
+                        <li><a href="#config">Подбор оборудования</a></li>
+                        <li><a href="#about">О компании</a></li>
+                        <li><a href="#sectors">Отрасли применения</a></li>
+                        <li><a href="#service">Сервис</a></li>
+                        <li><a href="#learn">Обучение</a></li>
+                        <li><a href="#press">Пресс-центр</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+
+                <a href="#" class="side-config-link"><svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg"><rect y="3" width="20" height="2" /><rect y="9" width="20" height="2" /><rect x="12" y="2" width="4" height="4" /><rect x="4" y="8" width="4" height="4" /></svg>Подобрать<br /> оборудование</a>
+
+                <div class="side-scroll"></div>
+
+                <div class="side-copyrights">© НПП Геотек, 2019</div>
+
+                <div class="side-developer"><a href="http://7pap.ru" target="_blank">Site by CЕМЬ ПАП!</a></div>
+
+            </div>
+        </div>
+        <!-- wrapper END -->
+
+        <footer class="animate">
+            <div class="container">
+
+                <div class="footer-left">
+                    <div class="footer-logo"></div>
+                    <div class="footer-address">400000, г. Пенза, ул. Центральная, 1</div>
+                    <div class="footer-email"><a href="mailto:info@npp-geotek.ru">info@npp-geotek.ru</a></div>
+                    <div class="footer-social">
+                        <div class="footer-social-item"><a href="#" target="_blank">Вк</a></div>
+                        <div class="footer-social-item"><a href="#" target="_blank">Фб</a></div>
+                        <div class="footer-social-item"><a href="#" target="_blank">Ютуб</a></div>
+                        <div class="footer-social-item"><a href="#" target="_blank">Инст</a></div>
+                    </div>
+                    <div class="footer-copyrights">© НПП Геотек, 2019</div>
+                    <div class="footer-policy"><a href="policy.html">Политика конфиденциальности</a></div>
+                </div>
+
+                <div class="footer-menu">
+                    <ul>
+                        <li><a href="catalogue-config.html">Подобрать оборудование</a></li>
+                        <li><a href="catalogue.html">АСИС</a></li>
+                        <li><a href="catalogue.html">Стандартные приборы</a></li>
+                        <li><a href="catalogue.html">Специальные установки</a></li>
+                        <li><a href="catalogue.html">Полевое оборудование</a></li>
+                        <li><a href="catalogue.html">Дополнительное оборудование</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-menu">
+                    <ul>
+                        <li><a href="about.html">О компании</a></li>
+                        <li><a href="service.html">Сервис</a></li>
+                        <li><a href="learn.html">Обучение</a></li>
+                        <li><a href="about-clients.html">Клиентам</a></li>
+                        <li><a href="about-press.html">Пресс-центр</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-right">
+                    <a href="#" class="footer-up-link"><svg width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g><mask id="path-1-inside-1" fill="white"><path fill-rule="evenodd" clip-rule="evenodd" d="M17 10L8.5 0L0 10"/></mask><path d="M8.5 0L7.73806 -0.647649L8.5 -1.54405L9.26194 -0.647649L8.5 0ZM16.2381 10.6476L7.73806 0.647649L9.26194 -0.647649L17.7619 9.35235L16.2381 10.6476ZM9.26194 0.647649L0.761939 10.6476L-0.761939 9.35235L7.73806 -0.647649L9.26194 0.647649Z" fill="white" mask="url(#path-1-inside-1)"/></g><g><mask id="path-3-inside-2" fill="white"><path fill-rule="evenodd" clip-rule="evenodd" d="M17 20L8.5 10L0 20"/></mask><path d="M8.5 10L7.73806 9.35235L8.5 8.45595L9.26194 9.35235L8.5 10ZM16.2381 20.6476L7.73806 10.6476L9.26194 9.35235L17.7619 19.3524L16.2381 20.6476ZM9.26194 10.6476L0.761939 20.6476L-0.761939 19.3524L7.73806 9.35235L9.26194 10.6476Z" fill="white" mask="url(#path-3-inside-2)"/></g></svg></a>
+                    <div class="footer-right-text">Отдел продаж (бесплатный звонок по РФ)</div>
+                    <div class="footer-right-phone"><a href="tel:+78002001605">8 800 200 16 05</a></div>
+                    <div class="footer-right-btn"><a href="windows/support.html" class="window-link"><img src="images/footer-btn-support.svg" alt="" />Заявка в техподдержку</a></div>
+                    <div class="footer-right-btn"><a href="windows/feedback.html" class="window-link"><img src="images/footer-btn-feedback.svg" alt="" />Обратная связь</a></div>
+                    <div class="footer-developer"><a href="http://7pap.ru" target="_blank">Сделано в СЕМЬ ПАП!</a></div>
+                </div>
+
+            </div>
+        </footer>
+
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/jquery.mask.min.js"></script>
+        <script src="js/validation/jquery.validate.min.js"></script>
+        <script src="js/validation/messages_ru.js"></script>
+        <script src="js/chosen/chosen.jquery.min.js"></script>
+        <script src="js/slick/slick.min.js"></script>
+        <script src="js/fancybox/jquery.fancybox.min.js"></script>
+        <script src="js/mcustomscrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="js/tools.js"></script>
+
+    </body>
+</html>

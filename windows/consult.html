@@ -1,0 +1,35 @@
+<div class="window-inner">
+    <div class="window-title">Получить консультацию по оборудованию</div>
+    <div class="window-form">
+        <form action="windows/consult-success.html" method="post" class="ajax-form">
+            <div class="window-subtitle">Оборудование:</div>
+            <div class="form-select">
+                <select name="device">
+                    <option value="1">АСИС для компрессионно-фильтрационных испытаний дисперсных грунтов</option>
+                    <option value="2">Испытательный комплекс АСИС</option>
+                    <option value="3">Серия «Стандарт»</option>
+                    <option value="4">Специальные установки</option>
+                    <option value="5">Полевое оборудование</option>
+                    <option value="6">Дополнительное оборудование</option>
+                </select>
+            </div>
+            <div class="window-consult-text">При необходимости мы проконсультируем вас по любому другому оборудованию или вопросу</div>
+            <div class="window-subtitle">Контактные данные</div>
+            <div class="form-input"><span>Имя*</span><input type="text" name="name" value="" class="required" /></div>
+            <div class="form-input"><span>Компания</span><input type="text" name="company" value="" /></div>
+            <div class="form-input"><span>Город</span><input type="text" name="city" value="" /></div>
+            <div class="form-input"><span>Телефон*</span><input type="text" name="phone" value="" class="required phoneRU" /></div>
+            <div class="form-input"><span>E-mail*</span><input type="text" name="email" value="" class="required email" /></div>
+            <div class="form-files">
+                <div class="form-file">
+                    <div class="form-file-input">Прикрепить файл<input type="file" name="files[]" /></div>
+                    <div class="form-file-name"><div class="form-file-name-text"></div><div class="form-file-name-remove"></div></div>
+                </div>
+            </div>
+            <div class="form-ctrl">
+                <div class="form-submit"><input type="submit" value="Отправить заявку" class="btn" /></div>
+                <div class="form-policy">Нажимая на кнопку, вы даете <a href="policy.html">согласие</a> на&nbsp;обработку персональных данных и принимаете политику конфиденциальности</div>
+            </div>
+        </form>
+    </div>
+</div>
